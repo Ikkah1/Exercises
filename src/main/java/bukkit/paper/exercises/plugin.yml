@@ -1,0 +1,15 @@
+name: Exercises
+version: '${version}'
+main: bukkit.paper.exercises.Exercises
+api-version: 1.17
+author: Ikkah
+commands:
+  greetme:
+    description: Greets the player.`
+    usage: /greetme
+    aliases: [greet, hello, hi]
+
+  givesword:
+    description: Gives the player a sword.
+    usage: /givesword
+    aliases: [swordgive, butterknife]
